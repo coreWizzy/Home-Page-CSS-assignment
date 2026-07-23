@@ -46,6 +46,7 @@ body {
 .boxes {
     /* padding: 50px; */
     display: flex;
+    flex-wrap: wrap;
 /*     padding-bottom: 1200px; */
 /*     padding-left: 300px; */
     justify-content: center;
