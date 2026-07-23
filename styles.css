@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/blackout-curtains-black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    justify-content: center;
+    align-content: center;
+    /* height: 100vh; */
+/*     margin-left: 40vw; */
+    color: rgb(40, 95, 196);
+    padding-top: 300px;
+    justify-self: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.box1 {
+    color: rgb(113, 43, 204);
+    background-color: rgb(88, 88, 238);
+    padding: 5px;
+    margin: 20px;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    justify-self: center;
+    justify-content: center;
+}
+
+.box1:hover{
+    color: white;
+    transition: 1000ms;
+}
+
+.boxes {
+    /* padding: 50px; */
+    display: flex;
+/*     padding-bottom: 1200px; */
+/*     padding-left: 300px; */
+    justify-content: center;
+}
+
+.mainbox:hover{
+    opacity: 80%;
+    transition: 1000ms;
+    
+}
+
+.mainbox{
+    text-align: center;
+    width: 300px;
+    margin: 50px;
+}
